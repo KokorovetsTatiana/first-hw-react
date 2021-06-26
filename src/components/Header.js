@@ -1,16 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import {
     Navbar,
     Nav
 } from "react-bootstrap";
 import logo from "../../src/logo.svg";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Home from "../pages/Home";
-import Task_1 from "../pages/Task_1";
-import Task_2 from "../pages/Task_2";
-import Task_3 from "../pages/Task_3";
-import Task_4 from "../pages/Task_4";
+import Home from "../pages/home/Home";
+import Task_1 from "../pages/task_1/Task_1";
+import Task_2 from "../pages/task_2/Task_2";
+import Task_3 from "../pages/task_3/Task_3";
+import Task_4 from "../pages/task_4/Task_4";
 
 export default function Header() {
         return (
