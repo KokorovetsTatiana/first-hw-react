@@ -16,3 +16,10 @@ export default function UserProfile() {
         </div>
     )
 }
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <UserProfile />
+//   </React.StrictMode>,
+//   document.getElementById('task1')
+// );
