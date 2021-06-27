@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Profile from "../../App";
+import Profile from "./profile";
 import user from "./user.json";
 
 export default class Task_1 extends Component {
@@ -15,7 +15,7 @@ export default class Task_1 extends Component {
                 views={user.stats.views}
                 likes={user.stats.likes}
             />
-            </div>
+        </div>
     )
     }
 }

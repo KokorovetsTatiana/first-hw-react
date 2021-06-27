@@ -1,10 +1,13 @@
-import React, { Component } from "react"
+import React, { Component } from "react";
+import Statistics from './statistics';
+import statisticalData from './statistical-data.json';
 
 export default class Task_2 extends Component {
     render() {
         return (
-            <div className="center" id="task2">
-                This is task 2
+            <div>
+                <Statistics title="Upload stats" stats={statisticalData} />
+                <Statistics stats={statisticalData} />
             </div>
         )
     }
