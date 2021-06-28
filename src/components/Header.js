@@ -6,6 +6,7 @@ import {
 import logo from "../../src/logo.svg";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import styles from './Header.module.css';
 import Home from "../pages/home/Home";
 import Task_1 from "../pages/task_1/Task_1";
 import Task_2 from "../pages/task_2/Task_2";
@@ -15,21 +16,21 @@ import Task_4 from "../pages/task_4/Task_4";
 export default function Header() {
         return (
             <>
-                <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
-                        <Navbar.Brand href="/">
+                <Navbar className={styles.navbar }>
+                    <Navbar.Brand className={ styles.navbarBrand} href="/">
                             <img
-                                src={logo}
-                                className="logo"
+                            src={logo}
+                            className={ styles.logo}
                                 alt="Logo"
                             />Homework 1
                         </Navbar.Brand>
-                        <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="mr-auto">
-                                <Nav.Link className="navItem" href="/">Home</Nav.Link>
-                                <Nav.Link className="navItem" href="/task_1">Task_1</Nav.Link>
-                                <Nav.Link className="navItem" href="/task_2">Task_2</Nav.Link>
-                                <Nav.Link className="navItem" href="/task_3">Task_3</Nav.Link>
-                                <Nav.Link className="navItem" href="/task_4">Task_4</Nav.Link>
+                    <Navbar.Collapse className={ styles.navbarPages}>
+                            <Nav>
+                                <Nav.Link className={styles.navItem} href="/">Home</Nav.Link>
+                                <Nav.Link className={styles.navItem} href="/task_1">Task_1</Nav.Link>
+                                <Nav.Link className={styles.navItem} href="/task_2">Task_2</Nav.Link>
+                                <Nav.Link className={styles.navItem} href="/task_3">Task_3</Nav.Link>
+                                <Nav.Link className={styles.navItem} href="/task_4">Task_4</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                 </Navbar>

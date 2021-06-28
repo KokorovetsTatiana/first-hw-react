@@ -1,0 +1,20 @@
+.navbar {
+  background-color: rgb(247, 211, 146);
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+}
+
+.navItem:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navbarBrand,
+.navbarPages,
+.center {
+  display: flex;
+  justify-content: center;
+}

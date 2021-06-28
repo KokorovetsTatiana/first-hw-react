@@ -1,0 +1,10 @@
+h1,
+ul {
+  text-align: center;
+  font-size: 24px;
+}
+
+.taskItem {
+  list-style: none;
+  font-size: 20px;
+}
