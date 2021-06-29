@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kokorovetstatiana.github.io/goit-react-hw-01-components/static/css/main.f83c705f.chunk.css",
+    "main.js": "/kokorovetstatiana.github.io/goit-react-hw-01-components/static/js/main.a6811fff.chunk.js",
+    "main.js.map": "/kokorovetstatiana.github.io/goit-react-hw-01-components/static/js/main.a6811fff.chunk.js.map",
+    "runtime-main.js": "/kokorovetstatiana.github.io/goit-react-hw-01-components/static/js/runtime-main.b6088daf.js",
+    "runtime-main.js.map": "/kokorovetstatiana.github.io/goit-react-hw-01-components/static/js/runtime-main.b6088daf.js.map",
+    "static/js/2.050c5520.chunk.js": "/kokorovetstatiana.github.io/goit-react-hw-01-components/static/js/2.050c5520.chunk.js",
+    "static/js/2.050c5520.chunk.js.map": "/kokorovetstatiana.github.io/goit-react-hw-01-components/static/js/2.050c5520.chunk.js.map",
+    "index.html": "/kokorovetstatiana.github.io/goit-react-hw-01-components/index.html",
+    "static/css/main.f83c705f.chunk.css.map": "/kokorovetstatiana.github.io/goit-react-hw-01-components/static/css/main.f83c705f.chunk.css.map",
+    "static/js/2.050c5520.chunk.js.LICENSE.txt": "/kokorovetstatiana.github.io/goit-react-hw-01-components/static/js/2.050c5520.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/kokorovetstatiana.github.io/goit-react-hw-01-components/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6088daf.js",
+    "static/js/2.050c5520.chunk.js",
+    "static/css/main.f83c705f.chunk.css",
+    "static/js/main.a6811fff.chunk.js"
+  ]
+}
